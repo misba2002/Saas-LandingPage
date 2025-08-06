@@ -1,0 +1,37 @@
+
+### 🧠 **AI Usage Report**
+
+```markdown
+# AI Usage Report – SaaS Landing Page
+
+## 🔍 Objective
+
+To build a fully responsive, modern, and animated landing page for the fictional product "ADmyBRAND AI Suite" using the latest web technologies and AI-assisted workflows.
+
+---
+
+## 🤖 How AI Was Used
+
+### 🛠️ Code Generation
+
+- AI (ChatGPT-4o) assisted in scaffolding the entire Next.js project with:
+  - App Router setup
+  - TypeScript integration
+  - Tailwind CSS setup
+  - Component generation (Hero, Features, Pricing, FAQ, Footer)
+
+### 🎨 Design Decisions
+
+- AI helped replicate modern SaaS design patterns inspired by platforms like [Linear](https://linear.app) and [Vercel](https://vercel.com).
+- UI/UX decisions including layout, spacing, animations, and responsiveness were iterated with AI suggestions.
+
+### 🧪 Debugging
+
+- Resolved Next.js build errors and ESLint issues (like unescaped entities) through AI-guided instructions.
+- Deployment optimization tips were also assisted by AI.
+
+---
+
+## 📌 Summary
+
+The project was rapidly prototyped, built, and deployed using AI-powered assistance, which saved significant development time and ensured best practices were followed throughout.
