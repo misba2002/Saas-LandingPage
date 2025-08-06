@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern SaaS Landing Page
 
-## Getting Started
+A sleek, high-converting landing page for a fictional AI marketing platform, **built using Next.js 14+ App Router**, TypeScript, Tailwind CSS, and shadcn/ui. Deployed on Vercel.
 
-First, run the development server:
+**Live Demo:** [https://saas-landing-page-psi-gray.vercel.app/](https://saas-landing-page-psi-gray.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Project Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Built with **Next.js 14** (App Router)
+- Styled using **Tailwind CSS** and **shadcn/ui** components
+- Fully **responsive** and mobile-friendly
+- Includes modern UI/UX polish: glassmorphism, gradient highlights, subtle animations
+- Lightweight **component system** for reuse across sections
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Technology        | Purpose                              |
+|------------------|--------------------------------------|
+| Next.js 14+      | React framework with optimized SSR   |
+| TypeScript       | Type-safe development                |
+| Tailwind CSS     | Utility-first CSS styling            |
+| shadcn/ui        | Accessible component library         |
+| Framer Motion    | Subtle scroll and entrance animations|
+| Vercel           | Production hosting and CI/CD         |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Folder Structure
 
-## Deploy on Vercel
+├── app/ # Next.js App Router pages (app/page.tsx, layout.tsx)  
+├── src/  
+│ ├── components/  
+│ │ ├── sections/ # Hero, Features, Pricing, Testimonials, FAQ, CTA, Footer  
+│ │ ├── ui/ # Reusable UI components: Button, Accordion, Avatar, FadeIn  
+│ └── animations/ # Animation wrapper components (e.g. FadeIn)  
+├── public/ # Static assets (images, logo, icons)  
+├── tailwind.config.ts # Tailwind CSS config  
+├── next.config.ts # Next.js configuration  
+├── README.md # This project README  
+└── package.json # Project settings and scripts  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## ✅ Getting Started Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/misba2002/Saas-LandingPage.git
+   cd Saas-LandingPage
+
+2.Install dependencies:
+npm install
+Run the development server:
+
+3.npm run dev
+Visit http://localhost:3000 to preview
+
+-**🏗 Build & Production**
+Build for production:
+1.npm run build
+2.Preview the build:
+npm run start  
+
+
+🧑‍💻 Author & Contributions
+Developer: Misba (misba2002)
+
+
