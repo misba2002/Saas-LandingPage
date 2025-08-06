@@ -52,7 +52,7 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="mt-4 text-neutral-400">
-            Can&rsquo;t find the answer you&rsquo;re looking for? Reach out to our support team anytime.
+            Can&apos;t find the answer you&apos;re looking for? Reach out to our support team anytime.
           </p>
         </div>
 
