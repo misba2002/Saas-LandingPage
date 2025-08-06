@@ -49,7 +49,7 @@ export default function PricingSection() {
           </div>
 
           <div className="grid gap-8 md:grid-cols-3">
-            {pricingPlans.map((plan, idx) => (
+            {pricingPlans.map((plan) => (
               <Card
                 key={plan.title}
                 className={`flex flex-col justify-between border border-white/10 bg-white/5 backdrop-blur-sm rounded-2xl transition-all duration-500 hover:-translate-y-2 hover:shadow-lg relative overflow-hidden ${

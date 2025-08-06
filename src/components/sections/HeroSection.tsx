@@ -54,7 +54,7 @@ export default function HeroSection() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button className="px-8 py-6 text-lg font-semibold transition-all duration-300 bg-gradient-to-r from-[#7f5af0] to-[#2cb67d] text-white hover:from-[#6f4ad0] hover:to-[#1ca56d] hover:shadow-lg hover:shadow-[#7f5af0]/30 transform hover:-translate-y-1">
-            Get Started - It's Free
+            Get Started - It&rsquo;s Free
           </Button>
           <Button variant="outline" className="px-8 py-6 text-lg font-medium border-white/20 hover:bg-white/5 hover:border-white/40 transition-all text-[#7f5af0] hover:text-[#7f5af0] duration-300">
             See How It Works
